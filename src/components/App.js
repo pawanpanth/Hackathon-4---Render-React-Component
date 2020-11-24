@@ -3,9 +3,16 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main"></div>
+    
+      
+      <Hello/>
+    
   )
 }
-
+export const Hello = () => {
+  return(
+    <p>I am learning React. My life is getting better.</p>
+  );
+}
 
 export default App;
